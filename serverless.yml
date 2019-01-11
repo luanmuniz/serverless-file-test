@@ -1,0 +1,17 @@
+service: aws-nodejs
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+# This will not work
+package: ${file(./dependences.yml)}
+
+# This will work
+# package:
+#   exclude:
+#    - file-to-exclude.md
+
+functions:
+  hello:
+    handler: handler.hello

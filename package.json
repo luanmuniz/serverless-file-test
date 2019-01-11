@@ -1,0 +1,14 @@
+{
+  "name": "serverless-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "1.36.0"
+  }
+}
